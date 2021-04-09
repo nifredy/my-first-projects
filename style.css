@@ -1,0 +1,225 @@
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:300,400'); */
+@font-face{
+    font-family:"fontawesome-webfont.woff";
+    src: url('styles/fonts/fontawesome-webfont.woff')format('woff'),
+         url('styles/fonts/fontawesome-webfont.woff2')format('woff2');
+         font-weight: normal;
+         font-style: ;
+}
+ * {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#777
+}
+
+html, body{
+    margin: 0;
+    padding:0;
+    background-color: whitesmoke;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.over {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(122, 120, 120, 0.568);  
+}
+.over li{
+    padding: 0 5%; 
+}
+.nav a:hover{
+         color: rgba(209, 78, 17, 0.767);
+}
+
+.main-header {
+    background-color:rgba(0, 0, 0,.6);
+    background-image: url('images/bokeh lights bg.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.artist-name{
+          text-align: center;
+          margin: 0;
+          font-size: 3em;
+          font-family: 'Trebuchet MS';
+          font-weight: lighter;
+          color: rgb(219, 246, 250);
+          
+}
+.artist-name2{
+    font-size: 8em;
+    color: rgba(235, 226, 226, 0.637);
+}
+.content-section{
+    margin: 1em;
+    font-size: 18px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2.5em;
+}
+.section-header{
+    text-align: center;
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 2.5em;
+    color: #333;
+}
+.about-artist-image{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: .5em;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color: rgba(188, 215, 226, 0.561);
+    background-image: url('images/bokeh\ lights\ bg.jpg');
+    background-size: cover;
+    background-blend-mode: screen;
+    color: rgb(184, 184, 184);
+    padding: .25em 0;
+}
+.main-footer-container{
+    display: flex;
+    text-align: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.main-footer-container li{
+    margin-right: 5%;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn-header{
+    margin: 1em 15% 2em 1%;
+    color: white;
+    border:2px solid rgb(255, 171, 16);
+    background-color: rgb(255,255,255,.1);
+    border-radius: 0;
+    font-size:1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: rgb(255,255,255,.3);
+}
+/* .btn-play{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color:rgb(255, 171, 16); ; */
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tour-row:last-child{
+    border-bottom: none;
+}
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+.tour-date{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+.tour-city{
+    width: 24%;
+}
+.tour-arena{
+    width: 42%;
+}
+.tour-btn{
+    max-width: 19%;
+}
+.btn-primary{
+    background-color:  rgb(207, 112, 23);
+    color: white;
+    border: none;
+    border-radius:.3em;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: rgb(141, 76, 15);
+}
+.shop-item{
+    margin: 50px;
+    padding-right: 5em;
+}
+.shop-item-title{
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: .1.5em;
+    color: #333;
+    margin-bottom:15px;
+}
+.shop-item-image{
+    height: 350px;
+}
+.cart{
+    height: 100px;
+}
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price{
+    flex-grow:1;
+    color: #333;
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cart-header{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+.cart-column{
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row{
+   
+}
+.cart-item{
+    width: 45%;
+}
+.cart-price{
+     width: 20%;
+}
+.cart-quantity{
+    width: 35%;
+}
+.cart-item-quantity{
+    color: #333;
+}
